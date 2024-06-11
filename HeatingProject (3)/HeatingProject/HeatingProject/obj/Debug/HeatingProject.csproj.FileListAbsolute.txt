@@ -1,0 +1,11 @@
+C:\Users\Opanasiuk Mykhailo\Desktop\HeatingProject\HeatingProject\bin\Debug\HeatingProject.exe.config
+C:\Users\Opanasiuk Mykhailo\Desktop\HeatingProject\HeatingProject\bin\Debug\HeatingProject.exe
+C:\Users\Opanasiuk Mykhailo\Desktop\HeatingProject\HeatingProject\bin\Debug\HeatingProject.pdb
+C:\Users\Opanasiuk Mykhailo\Desktop\HeatingProject\HeatingProject\obj\Debug\HeatingProject.csproj.AssemblyReference.cache
+C:\Users\Opanasiuk Mykhailo\Desktop\HeatingProject\HeatingProject\obj\Debug\HeatingProject.Properties.Resources.resources
+C:\Users\Opanasiuk Mykhailo\Desktop\HeatingProject\HeatingProject\obj\Debug\HeatingProject.csproj.GenerateResource.cache
+C:\Users\Opanasiuk Mykhailo\Desktop\HeatingProject\HeatingProject\obj\Debug\HeatingProject.csproj.CoreCompileInputs.cache
+C:\Users\Opanasiuk Mykhailo\Desktop\HeatingProject\HeatingProject\obj\Debug\HeatingProject.exe
+C:\Users\Opanasiuk Mykhailo\Desktop\HeatingProject\HeatingProject\obj\Debug\HeatingProject.pdb
+C:\Users\Opanasiuk Mykhailo\Desktop\HeatingProject\HeatingProject\obj\Debug\HeatingProject.MainForm.resources
+C:\Users\Opanasiuk Mykhailo\Desktop\HeatingProject\HeatingProject\obj\Debug\HeatingProject.AddHeatingSystemForm.resources
