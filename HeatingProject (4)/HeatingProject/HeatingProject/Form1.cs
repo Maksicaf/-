@@ -91,9 +91,23 @@ namespace HeatingProject
 
         private void sortButton_Click(object sender, EventArgs e)
         {
-            var groupedByStartDate = heatingSystemsTable.AsEnumerable()
-                .GroupBy(row => row.Field<DateTime>("StartDate"))
-                .OrderBy(g => g.Key);
+            // Конвертуємо DataTable в List<HeatingSystem>
+            var heatingSystemsList = heatingSystemsTable.AsEnumerable()
+                .Select(row => new HeatingSystem
+                {
+                    City = row.Field<string>("City"),
+                    BoilerNumber = row.Field<int>("BoilerNumber"),
+                    NumberOfHeatingObjects = row.Field<int>("NumberOfHeatingObjects"),
+                    StartDate = row.Field<DateTime>("StartDate"),
+                    StartTemperature = row.Field<double>("StartTemperature"),
+                    EndDate = row.Field<DateTime>("EndDate")
+                }).ToList();
+
+            // Сортуємо список за StartDate
+            QuickSort(heatingSystemsList, 0, heatingSystemsList.Count - 1);
+
+            // Групуємо за StartDate та зберігаємо у файли
+            var groupedByStartDate = heatingSystemsList.GroupBy(hs => hs.StartDate);
 
             foreach (var group in groupedByStartDate)
             {
@@ -101,19 +115,42 @@ namespace HeatingProject
                 var serializer = new XmlSerializer(typeof(List<HeatingSystem>));
                 using (var writer = new StreamWriter(fileName))
                 {
-                    var list = group.Select(row => new HeatingSystem
-                    {
-                        City = row.Field<string>("City"),
-                        BoilerNumber = row.Field<int>("BoilerNumber"),
-                        NumberOfHeatingObjects = row.Field<int>("NumberOfHeatingObjects"),
-                        StartDate = row.Field<DateTime>("StartDate"),
-                        StartTemperature = row.Field<double>("StartTemperature"),
-                        EndDate = row.Field<DateTime>("EndDate")
-                    }).ToList();
-                    serializer.Serialize(writer, list);
+                    serializer.Serialize(writer, group.ToList());
                 }
             }
             MessageBox.Show("Дані відсортовані та збережені у файли.");
+        }
+
+        private void QuickSort(List<HeatingSystem> list, int left, int right)
+        {
+            if (left < right)
+            {
+                int pivotIndex = Partition(list, left, right);
+                QuickSort(list, left, pivotIndex - 1);
+                QuickSort(list, pivotIndex + 1, right);
+            }
+        }
+
+        private int Partition(List<HeatingSystem> list, int left, int right)
+        {
+            DateTime pivot = list[right].StartDate;
+            int low = left - 1;
+
+            for (int j = left; j < right; j++)
+            {
+                if (list[j].StartDate <= pivot)
+                {
+                    low++;
+                    Swap(list, low, j);
+                }
+            }
+            Swap(list, low + 1, right);
+            return low + 1;
+        }
+
+        private void Swap(List<HeatingSystem> list, int i, int j)
+        {
+            (list[j], list[i]) = (list[i], list[j]);
         }
 
         private void addButton_Click(object sender, EventArgs e)
@@ -169,6 +206,58 @@ namespace HeatingProject
             else
             {
                 MessageBox.Show("Виберіть рядок для видалення.");
+            }
+        }
+
+        private void tbSearch_TextChanged(object sender, EventArgs e)
+        {
+            string searchText = tbSearch.Text.ToLower();
+
+            // Сортуємо список за City
+            heatingSystems.Sort((a, b) => string.Compare(a.City.ToLower(), b.City.ToLower(), StringComparison.Ordinal));
+
+            // Виконуємо бінарний пошук
+            int left = 0;
+            int right = heatingSystems.Count - 1;
+            bool found = false;
+
+            while (left <= right)
+            {
+                int mid = (left + right) / 2;
+                string midValue = heatingSystems[mid].City.ToLower();
+
+                int comparison = string.Compare(midValue, searchText, StringComparison.Ordinal);
+                if (comparison == 0)
+                {
+                    // Знайдено, виділяємо відповідні рядки у DataGridView
+                    foreach (DataGridViewRow row in dataGridView.Rows)
+                    {
+                        if (string.Equals(row.Cells["City"].Value.ToString(), heatingSystems[mid].City, StringComparison.OrdinalIgnoreCase))
+                        {
+                            row.Selected = true;
+                            dataGridView.FirstDisplayedScrollingRowIndex = row.Index;
+                            break;
+                        }
+                    }
+                    found = true;
+                    break;
+                }
+                else if (comparison < 0)
+                {
+                    left = mid + 1;
+                }
+                else
+                {
+                    right = mid - 1;
+                }
+            }
+
+            if (!found)
+            {
+                foreach (DataGridViewRow row in dataGridView.Rows)
+                {
+                    row.Selected = false;
+                }
             }
         }
     }

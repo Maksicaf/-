@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE6B72D-0AA7-4FB6-9EDD-206FE71847BA}|HeatingProject\\HeatingProject.csproj|e:\\\u0432\u0438\u0441\u0443\u0430\u043B\\heatingproject (4)\\heatingproject\\heatingproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE6B72D-0AA7-4FB6-9EDD-206FE71847BA}|HeatingProject\\HeatingProject.csproj|solutionrelative:heatingproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE6B72D-0AA7-4FB6-9EDD-206FE71847BA}|HeatingProject\\HeatingProject.csproj|E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\heatingproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1AE6B72D-0AA7-4FB6-9EDD-206FE71847BA}|HeatingProject\\HeatingProject.csproj|solutionrelative:heatingproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE6B72D-0AA7-4FB6-9EDD-206FE71847BA}|HeatingProject\\HeatingProject.csproj|E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\heatingproject\\addheatingsystemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE6B72D-0AA7-4FB6-9EDD-206FE71847BA}|HeatingProject\\HeatingProject.csproj|solutionrelative:heatingproject\\addheatingsystemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE6B72D-0AA7-4FB6-9EDD-206FE71847BA}|HeatingProject\\HeatingProject.csproj|E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\heatingproject\\addheatingsystemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1AE6B72D-0AA7-4FB6-9EDD-206FE71847BA}|HeatingProject\\HeatingProject.csproj|solutionrelative:heatingproject\\addheatingsystemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE6B72D-0AA7-4FB6-9EDD-206FE71847BA}|HeatingProject\\HeatingProject.csproj|E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\heatingproject\\heatingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE6B72D-0AA7-4FB6-9EDD-206FE71847BA}|HeatingProject\\HeatingProject.csproj|solutionrelative:heatingproject\\heatingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE6B72D-0AA7-4FB6-9EDD-206FE71847BA}|HeatingProject\\HeatingProject.csproj|E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\heatingproject\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE6B72D-0AA7-4FB6-9EDD-206FE71847BA}|HeatingProject\\HeatingProject.csproj|solutionrelative:heatingproject\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddHeatingSystemForm.cs",
+              "DocumentMoniker": "E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\HeatingProject\\AddHeatingSystemForm.cs",
+              "RelativeDocumentMoniker": "HeatingProject\\AddHeatingSystemForm.cs",
+              "ToolTip": "E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\HeatingProject\\AddHeatingSystemForm.cs",
+              "RelativeToolTip": "HeatingProject\\AddHeatingSystemForm.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwB4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:11:31.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddHeatingSystemForm.cs [Design]",
+              "DocumentMoniker": "E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\HeatingProject\\AddHeatingSystemForm.cs",
+              "RelativeDocumentMoniker": "HeatingProject\\AddHeatingSystemForm.cs",
+              "ToolTip": "C:\\Users\\Opanasiuk Mykhailo\\Desktop\\HeatingProject\\HeatingProject\\AddHeatingSystemForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:11:21.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\HeatingProject\\Form1.cs",
+              "RelativeDocumentMoniker": "HeatingProject\\Form1.cs",
+              "ToolTip": "E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\HeatingProject\\Form1.cs [Design]",
+              "RelativeToolTip": "HeatingProject\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T08:33:23.556Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HeatingSystem.cs",
+              "DocumentMoniker": "E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\HeatingProject\\HeatingSystem.cs",
+              "RelativeDocumentMoniker": "HeatingProject\\HeatingSystem.cs",
+              "ToolTip": "E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\HeatingProject\\HeatingSystem.cs",
+              "RelativeToolTip": "HeatingProject\\HeatingSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T08:33:42.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\HeatingProject\\Form1.cs",
+              "RelativeDocumentMoniker": "HeatingProject\\Form1.cs",
+              "ToolTip": "E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\HeatingProject\\Form1.cs",
+              "RelativeToolTip": "HeatingProject\\Form1.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAqwIYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T08:30:41.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\HeatingProject\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "HeatingProject\\Form1.Designer.cs",
+              "ToolTip": "E:\\\u0432\u0438\u0441\u0443\u0430\u043B\\HeatingProject (4)\\HeatingProject\\HeatingProject\\Form1.Designer.cs",
+              "RelativeToolTip": "HeatingProject\\Form1.Designer.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAhwHQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T08:32:17.826Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
